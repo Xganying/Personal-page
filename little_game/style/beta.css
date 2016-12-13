@@ -1,0 +1,34 @@
+html{height:100%;}
+ul{margin:0;padding-left:0;}
+li{list-style:none;}
+body{height:100%;position:relative;margin:0;background:#c0c0c0;}
+#bg {width:400px; height:420px;  position:absolute;border: solid 3px white; top:50%; left:50%; margin-left:-200px; margin-top:-200px; }
+
+/*得分板*/
+#score {width:216px;height:24px; line-height:24px; color:#fff; font-size:12px; font-family:"微软雅黑"; margin:0 auto; position:relative; top:6px; }
+#score li { float:left; width:108px; text-align:center; }
+/*失败提示*/
+#game_over {display:none;z-index:2; position:absolute; top:194px; left:95px;}
+#game_over img { display:block; }
+/*开始按钮*/
+#btn_pos {padding:20px 0 0 20px; border: none;}
+/*飞船*/
+#man {width:40px; height:40px; background:url(../img/1.png); position:absolute; display:none; z-index:1;}
+
+#start {position:absolute; width:50px; height:26px; left:50%; margin-left:-25px; top:70%;border: none;}
+/*进度条*/
+#progress {position:absolute; width:100%; height:20px; background: url(../img/progress.jpg) no-repeat; bottom:0px; left:0;}
+#progress span {width:100%; height:100%; position:absolute; left:0; top:0; background: url(../img/progress_span.jpg) no-repeat; }
+/*光点*/
+.bullet {width:5px; height:5px; overflow:hidden; background:yellow; position:absolute;}
+
+
+/*大背景*/
+#shadow{position:absolute;left:0;top:0;width:100%;height:100%;background:#000;opacity:0.8;filter:alpha(opacity=80);display:none; z-index:2000;}
+/*动态显示成绩*/
+#popup{width:280px;height:160px; position:absolute; top:50%; left:50%; margin-left:-160px; margin-top:-80px; background:#eee;padding:20px 20px;overflow:hidden;display:none; z-index:2001;}
+#popup li{height:20px;padding:10px 0;line-height:20px;font-weight:bold;}
+#popup li var{font-style:normal;color:#666;padding-right:10px;}
+#popup p{height:20px; padding:10px 0;text-align:center;margin:0;}
+/*按钮样式*/
+#bg .btn {width:85px; height:34px; background:url(../img/btn.png) no-repeat; color:#000; font-family":"Microsoft YaHei"; font-size:12px; border:none; display:inline-block; float:left; text-align:center; line-height:34px; color:#FFF; text-decoration:none;}
