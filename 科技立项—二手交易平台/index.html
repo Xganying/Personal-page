@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<title>易乐</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+   <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+   <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+   <script src="js/index.js"></script>
+</head>
+<body>
+<nav id="homeNav" class="navbar navbar-default navbar-inverse">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">易乐</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav" id="center">
+       <!--  <li class="active"><a href="#">品牌指南 <span class="sr-only">(current)</span></a></li> -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">相关网站<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://2.zol.com.cn/" target="_blank">二手市场网</a></li>
+            <li><a href="http://www.ischoolbar.com/index.php/School/provinces.html" target="_blank">校园跳蚤街</a></li>
+            <li><a href="http://xian.ersoso.com/" target="_blank">同城二手网</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">物品分类<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="books.html" target="_blank">书籍资料</a></li>
+            <li><a href="electronics.html" target="_blank">电子产品</a></li>
+            <li><a href="sport.html" target="_blank">运动健身</a></li>
+            <li><a href="traffic.html" target="_blank">校园代步</a></li>
+            <li><a href="clothes.html" target="_blank">衣伞物帽</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">查找物品</button>
+      </form>
+      <div class="log_in">
+        <a class="register" href="register.html">注册</a>
+        <a class="log" href="Log.html">登陆</a>
+      </div>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="margin-top:-20px">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active" id="home-img">
+      <img src="img/homebg1.jpg" alt="轮播图片">
+      <div id="imgFont" class="carousel-caption">
+        Thanks For Your Trust.
+      </div>
+    </div>
+    <div class="item" id="home-img">
+      <img src="img/homebg2.jpg" alt="轮播图片">
+      <div id="imgFont" class="carousel-caption">
+        What Are We Doing.
+      </div>
+    </div>
+    <div class="item" id="home-img">
+      <img src="img/homebg3.jpg" alt="轮播图片">
+      <div id="imgFont" class="carousel-caption">
+        About Our Team.
+      </div>
+    </div>
+    <div class="item" id="home-img">
+      <img src="img/homebg4.jpg" alt="轮播图片">
+      <div id="imgFont" class="carousel-caption">
+         Environmental Protection.
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h2 class="title">What are we doing.
+				<span class="border"></span>
+			</h2>
+		</div>
+	</div>
+</div>
+<div class="container" id="content">
+	<div class="row">
+	  <div class="col-sm-6 col-md-4">
+	    <div class="thumbnail div1">
+	      <figure><img src="img/books/xianxingdaishu1.jpg" alt="..."></figure>
+	    </div>
+	  </div>
+	  <div class="col-sm-6 col-md-4">
+	    <div class="thumbnail div1">
+	      <figure><img src="img/devices/nikon1.jpg" alt="..."></figure>
+	    </div>
+	  </div>
+	  <div class="col-sm-6 col-md-4">
+	    <div class="thumbnail div1">
+	      <figure><img src="img/devices/pin6.jpg" alt="..."></figure>
+	    </div>
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="col-sm-6 col-md-4">
+	    <div class="thumbnail div1">
+	      <figure><img src="img/pao.jpg" alt="..."></figure>
+	    </div>
+	  </div>
+	  <div class="col-sm-6 col-md-4">
+	    <div class="thumbnail div1">
+	      <figure><img src="img/zhu.jpg" alt="..."></figure>
+	    </div>
+	  </div>
+	  <div class="col-sm-6 col-md-4">
+	    <div class="thumbnail div1">
+	      <figure><img src="img/yujia.jpg" alt="..."></figure>
+	    </div>
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="col-sm-6 col-md-4">
+	    <div class="thumbnail div1">
+	      <figure><img src="img/zixing.jpg" alt="..."></figure>
+	    </div>
+	  </div>
+	  <div class="col-sm-6 col-md-4">
+	    <div class="thumbnail div1">
+	      <figure><img src="img/cloth.jpg" alt="..."></figure>
+	    </div>
+	  </div>
+	  <div class="col-sm-6 col-md-4">
+	    <div class="thumbnail div1">
+	      <figure><img src="img/toy.jpg" alt="..."></figure>
+	    </div>
+	  </div>
+	</div>
+</div>
+
+<div class="content1">
+	<img src="img/bg.jpg">
+	<h1>享受闲置物品交换心仪物品的乐趣</h1>
+	<h2>最全面、种类最多、最方便的校园闲置物品都在这里啦, to enjoy the fun :-)</h2>
+	<div>GET IN TOUCH</div>
+</div>
+
+<div id="block2">
+  <ul>
+    <li><figure><img src="img/flush1.jpg"></figure></li>
+    <li><figure><img src="img/flush2.jpg"></figure></li>
+    <li><figure><img src="img/flush3.jpg"></figure></li>
+    <li><figure><img src="img/flush4.jpg"></figure></li>
+    <li><figure><img src="img/flush5.jpg"></figure></li>
+    <li><figure><img src="img/flush6.jpg"></figure></li>
+    <li><figure><img src="img/flush7.jpg"></figure></li>
+  </ul>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h2 class="title">About  Us
+				<span class="border"></span>
+			</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<h2 class="conter">我们是来自西安邮电大学计算机学院的学生，这个项目的灵感来源于我们自身拥有很多的闲置物品，同时在不同时间段需要一些体育器材，书本等。<br/>
+              购买全新的性价比不搞，而恰恰我们需要的物品是很多人的闲置物品。提供一个校园易物平台，方便大家生活。<br/>
+			如有问题可联系我们项目负责人: QQ:1072859307
+			<br/><br/>
+			</h2>
+		</div>
+	</div>
+</div>
+
+<div class="block3">
+	<h3>DON´T MISS OUR NEW STUFF.</h3>
+	<input type="text" placeholder="Enter Email" />
+</div>
+</body>
+</html>

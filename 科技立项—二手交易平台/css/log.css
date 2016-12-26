@@ -1,0 +1,208 @@
+.RegisterLog{
+	margin-left: 90%;
+	font-size: 1em;
+	font-family: "微软雅黑";
+	overflow: hidden;
+}
+.RegisterLog .Register{
+	color: #ccc;
+	text-decoration: none;
+	padding-top: 15px;
+	display: block;
+	float: left;
+}
+.RegisterLog .Log{
+	color: #ccc;
+	text-decoration: none;
+	padding-top: 15px;
+	display: block;
+	float: left;
+	margin-left: 15px;
+}
+.RegisterLog a:hover{
+	color: #fff;
+}
+.content{
+	position: relative;
+	font-family: "微软雅黑";
+	height: 600px;
+}
+.content .log_bg{
+	position: absolute;
+	z-index: -999;
+	width: 100%;
+	height: 600px;
+	margin-top:-30px; 
+}
+.content .explain{
+	width: 50%;
+	float: left;
+	height: 600px;
+	font-size: 30px;
+	color: #fff;
+	padding: 90px;
+	/*background-color: red;*/
+}
+.content .register_div{
+	float: left;
+	width: 50%;
+	height: 600px;
+	position: relative;
+	color: #fff;
+	/*background-color: red;*/
+}
+.content .register_div .register_form{
+	margin-top: 80px;
+	margin-left: 180px;
+	font-size: 20px;
+	font-family: "微软雅黑";
+}
+.content .register_div .register_form .log{
+	margin-top: 30px;
+	margin-left: 20px;
+	padding: 0 5px;
+	color: #ccc;
+	border: 2px solid #fff;
+	border-radius: 2px;
+}
+.content .register_div .register_form .btn{
+	margin-top: 60px;
+	margin-left: 210px;
+	padding: 10px 25px;
+	background-color: #87b6c4;
+	border-radius: 20%;
+	font-size: 20px;
+	letter-spacing: 5px;
+	color: #fff;
+	-moz-transition: color ease 800ms;
+	    -o-transition: color ease 800ms;
+	    -webkit-transition: color ease 800ms;
+	    transition: color ease 800ms;
+	    -moz-transition: background-color ease 800ms;
+	    -o-transition: background-color ease 800ms;
+	    -webkit-transition: background-color ease 800ms;
+	    transition: background-color ease 800ms;
+}
+.content .register_div .register_form .btn:hover{
+	color: #fff;
+	background-color:#f1535e;
+}
+.bottom{
+	width: 100%;
+	height: auto;
+	margin-top: 30px;
+	/*background-color: #ccc;*/
+}
+.bottom .school{
+	font-family: '微软雅黑';
+	font-size: 14px;
+	color: #696969;
+	text-align: center;
+}
+.bottom .icnon_totle{
+	height: 100px;
+	width: 325px;
+	margin: 0 auto;
+}
+.bottom .icnon_totle div{
+	height: 50px;
+	width: 50px;
+	float: left;
+	border-radius: 50%;
+	/*background-color: red;*/
+	margin-left: 15px;
+	margin-top: 20px;
+	position: relative;
+	    -moz-transition: background-color ease 800ms;
+	    -o-transition: background-color ease 800ms;
+	    -webkit-transition: background-color ease 800ms;
+	    transition: background-color ease 800ms;
+}
+.bottom .icnon_totle div span{
+	position: absolute;
+	left: 18%;
+	top:18%;
+	color: #696969;
+}
+.bottom .icnon_totle div:hover{
+	background-color:#f1535e; 
+}
+
+/*log*/
+
+.content .register_div .log_form{
+	margin-top: 100px;
+	margin-left: 200px;
+}
+.content .register_div .log_form .log{
+	margin-top: 50px;
+	margin-left: 20px;
+	padding: 5px 10px;
+	color: #ccc;
+	border: 2px solid #fff;
+	border-radius: 2px;
+}
+.content .register_div .log_form .btn{
+	margin-top: 60px;
+	margin-left: 300px;
+	padding: 10px 25px;
+	background-color: #87b6c4;
+	border-radius: 20%;
+	font-size: 20px;
+	letter-spacing: 5px;
+	color: #fff;
+	-moz-transition: color ease 800ms;
+	-o-transition: color ease 800ms;
+	-webkit-transition: color ease 800ms;
+	transition: color ease 800ms;
+	-moz-transition: background-color ease 800ms;
+	-o-transition: background-color ease 800ms;
+	-webkit-transition: background-color ease 800ms;
+	transition: background-color ease 800ms;
+}
+.content .register_div .log_form .btn:hover{
+	color: #fff;
+	background-color: #f1535e;
+}
+.content .register_div .log_form .check{
+	width: 20px;
+	height: 20px;
+	margin-top: 50px;
+}
+.content .register_div .log_form .remember_pass{
+	font-size: 18px;
+	margin-left: 10px;
+}
+.content .register_div .log_form .Log_btn{
+	margin:-5px 0 0 80px;
+}
+.icono-user {
+	width: 26px;
+	height: 7px;
+	border-radius: 64px 64px 0 0/64px;
+	margin: 18px 10px 2px 1px;
+}
+.icono-eye{
+	width: 26px;
+	height: 26px;
+	border-radius: 64px 64px 0 0/64px;
+	margin: 2px 12px 2px 1px;
+	border-radius: 80% 20%;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	border-width: 2px 1px 1px 2px;
+}
+.icono-iphoneBold {
+	width: 20px;
+	height: 32px;
+	margin: 0 16px 0 4px;
+	border-radius: 4px;
+	border-width: 5px 2px;
+}
+.icono-mail {
+	width: 28px;
+	height: 18px;
+	overflow: hidden;
+	margin: 0 10px 0 0;
+}

@@ -1,0 +1,253 @@
+nav{
+	width: 100%;
+	/*padding-bottom: 5%;*/
+	background-color: #222222;
+	border-radius: 5px;
+	overflow: hidden;
+	height: 70px;
+ }
+ .nav1{
+ 	font-family: "微软雅黑";
+ 	margin-left: 700px;
+ }
+ .anav{
+ 	display: block;
+ 	float: left;
+ 	font-size: 20px;
+ 	color: #ccc;
+ 	text-decoration: none;
+ 	margin: 20px 30px;
+ }
+ nav a:hover{
+	text-decoration: none;
+	color: #fff;
+ }
+ #btn{
+ 	margin-top: 15px;
+ 	margin-left: 200px;
+ }
+ #hide{
+ 	position: absolute;
+ 	left: 850px;
+ 	top: 45px;
+ }
+#brand{
+ 	display: none;
+ 	float: left;
+ 	font-size: 20px;
+ 	line-height: 25px;
+ 	background-color:#222222; 
+ 	color: #ccc;
+ 	width: 150px;
+ /*	height: 500px;*/
+ 	text-align: center;
+ 	position: relative;
+ }
+#use{
+ 	display: none;
+ 	float: left;
+ 	font-size: 20px;
+ 	line-height: 25px;
+ 	background-color:#222222; 
+ 	color: #ccc;
+ 	text-align: center;
+ 	width: 150px;
+ 	margin-left: 140px;
+ 	padding-top: 20px;
+ 	position: relative;
+ }
+ #brand li{
+ 	margin: 20px 0;
+ }
+ #brand li a{
+ 	text-decoration: none;
+ 	color: #ccc;
+ }
+ #brand a:hover{
+ 	color: #fff;
+ }
+ #brand li{
+ 	margin: 20px 0;
+ }
+  #use li a{
+ 	text-decoration: none;
+ 	color: #ccc;
+ }
+ #use a:hover{
+ 	color: #fff;
+ }
+ .name{
+ 	font-size: 34px;
+ 	margin-left: 180px;
+ 	font-weight: bold;
+ 	letter-spacing: 2px;
+ 	margin-top: 30px;
+ }
+ul { 
+	padding: 0; margin: 0; 
+} 
+li { 
+	list-style: none; 
+}
+img { border: 0; }
+
+.play { 
+	width: 400px; 
+	height: 430px; 
+	margin-top: 20px;
+	margin-left: 150px; 
+	background: #999; 
+	font: 12px Arial;
+	z-index: 1; 
+	float: left;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+.big_pic { 
+	width: 400px; 
+	height: 320px; 
+	overflow: hidden; 
+	border-bottom: 1px solid #ccc; 
+	background: #222; 
+	position: relative; 
+}
+.big_pic li { 
+	width: 400px; 
+	height: 320px; 
+	overflow: hidden; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	z-index: 0; 
+	background: url(loading.gif) no-repeat center center; 
+}
+.big_pic li img{
+	width: 400px; 
+	height: 320px; 
+	overflow: hidden; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	z-index: 0; 
+}
+.mark_left { 
+	width: 200px; 
+	height: 320px; 
+	position: absolute; 
+	left: 0; 
+	top: 0; 
+	background: red; 
+	filter: alpha(opacity:0); 
+	opacity: 0; 
+	z-index:3000; 
+}
+.mark_right { 
+	width: 200px; 
+	height: 320px; 
+	position: absolute; 
+	left: 200px; 
+	top: 0; 
+	background: green; 
+	filter: alpha(opacity:0); 
+	opacity: 0; 
+	z-index:3000; 
+}
+.big_pic .prev { 
+	width: 60px; 
+	height: 60px; 
+	background: url(btn.gif) no-repeat; 
+	position: absolute; 
+	top: 130px; 
+	left: 10px; 
+	z-index: 3001; 
+	filter:alpha(opacity:0);
+	opacity: 0; 
+	cursor: pointer; 
+}
+.big_pic .next { 
+	width: 60px; 
+	height: 60px; 
+	background: url(btn.gif) no-repeat 0 -60px; 
+	position: absolute; 
+	top: 130px; 
+	right: 10px; 
+	z-index: 3001; 
+	filter:alpha(opacity:0);
+	opacity: 0;
+	cursor: pointer; 
+}
+.small_pic { 
+	width: 380px; 
+	height: 94px; 
+	position: relative; 
+ /*	top: 7px;*/
+ 	left: 7px;
+	overflow: hidden; 
+}
+.small_pic ul { 
+	height: 94px; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+}
+.small_pic li { 
+	width: 130px; 
+	height: 94px; 
+	float: left; 
+	padding-right: 10px; 
+	background: url(loading.gif) no-repeat center center; 
+	cursor: pointer; 
+	filter: alpha(opacity=60); 
+	opacity: 0.6; 
+}
+.small_pic img { 
+	width: 120px; 
+	height: 94px; 
+}
+.information{
+	width: 40%;
+	float: left;
+	margin-top: 10px;
+	margin-left: 70px;
+	overflow: hidden;
+}
+.information p{
+	font-size: 16px;
+	overflow: hidden;
+}
+.change{
+	width: auto;
+	height: 50px;
+	/*background-color: red;*/
+	position: absolute;
+	right: 15%;
+	bottom: 15%;
+}
+.change a{
+	display: block;
+	width: 100px;
+	background: black;
+	float: left;
+	margin-left: 50px;
+	border-radius: 15%;
+	text-align: center;
+	line-height: 50px;
+	background-color: #87b6c4;
+	color: #fff;
+	font-size: 20px;
+}
+.change a:hover{
+	text-decoration: none;
+	color: #fff;
+	background-color: #f66d52;
+	/*letter-spacing: 4px;*/
+	 -webkit-transition: all 0.3s ease;
+	  	-moz-transition: all 0.3s ease;
+	 	transition: all 0.3s ease;
+}
+.footer{
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	margin-top: 500px;
+}
